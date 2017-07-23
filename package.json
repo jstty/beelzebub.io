@@ -21,6 +21,7 @@
   "scripts": {
     "clean": "cd server && rm -rf node_modules && cd .. && rm -rf node_modules",
     "init": "npm install && cd server && npm install",
+    "build": "echo 'Nothing to Build'",
     "predeploy": "npm run init && npm run build",
     "deploy": "eb deploy",
     "start": "node app"
