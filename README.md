@@ -1,2 +1,2 @@
 # beelzebub.io
-beelzebub website
+site for [beelzebub](https://github.com/jstty/beelzebub) project
