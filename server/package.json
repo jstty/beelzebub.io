@@ -1,0 +1,9 @@
+{
+  "name": "jstty.server",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=4.0"
+  }
+}
