@@ -1,0 +1,31 @@
+{
+  "name": "beelzebub.io",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joseph E. Sutton",
+    "email": "joe@jstty.com",
+    "url": "http://beelzebub.io"
+  },
+  "maintainers": [
+    {
+      "name": "jstty",
+      "email": "joe@jstty.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "hyper.io": "^0.6.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "clean": "cd server && rm -rf node_modules && cd .. && rm -rf node_modules",
+    "init": "npm install && cd server && npm install",
+    "predeploy": "npm run init && npm run build",
+    "deploy": "eb deploy",
+    "start": "node app"
+  },
+  "engines": {
+    "node": ">=4.0"
+  }
+}
